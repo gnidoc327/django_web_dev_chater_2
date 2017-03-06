@@ -52,9 +52,12 @@ def post():
     print(response.read().decode("utf-8"))
 
 
-# 예시코드
+# 예시코드 동작X
 def put():
-    pass
+    conn = client.HTTPConnection("localhost", 8888)
+    conn.request("PUT", "/file", "***filecontents***")
+    response = conn.getresponse()
+    print(response.status, response.reason)
 
 
 if __name__ == '__main__':
