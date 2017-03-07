@@ -1,7 +1,7 @@
 # 9xD Django 스터디
 ## Chapter 2 : Python 웹 표준 라이브러리
 ### Description
-* ppt - slideshare :
+* ppt - slideshare : [ppt link](http://www.slideshare.net/HanSungKim4/django-study)
 * 개발환경
   * python 3.5 : [download link](https://www.python.org/downloads/release/python-350/)
   * pycharm : [download link](https://www.jetbrains.com/pycharm/download/#section=windowscommunity) - Windows, Mac, Linux 모두 지원(Windows 중점으로 진행)
